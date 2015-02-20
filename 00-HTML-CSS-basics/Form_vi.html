@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>1.VI - HTML and CSS Basics</title>
+	</head>
+	<body>
+    <form method="post" id="register">
+    	<h2>Sing up:</h2>
+      <label for="firstname">First Name:</label>
+       	<input type="text" name="firstname" id="firstname" placeholder="Roger" required>
+       	<br>
+      <label for="lastname">Last Name:</label>
+       	<input type="text" name="lastname" id="lastname" placeholder="Federer" required>
+       	<br>
+      <label>Email address:
+       	<input type="email" name="email" id="email" placeholder="roger_federer@atp.com" required>
+      </label>
+      <br>
+      <label>Birthday:<input type="date" name="birthday" required>
+			</label>
+			<br>
+			<label>Favorite sport:
+				<select name="select">
+					<option value="Tennis">Tennis</option>
+					<option value="Football">Football</option>
+					<option value="Golf">Hockey</option>
+					<option value="Rugby">Rugby</option>
+					<option value="Squash">Basketball</option>
+					<option value="Karate">Athletism</option>
+				</select>
+				</label>
+				<br>
+			<label>About:
+				<br>
+				<textarea name="message" rows="10" cols="30" placeholder="Say something about you..."></textarea>
+				</label>
+				<br>
+				<input type="reset" value="Reset">
+				<input type="submit" name="Submit" value="Sign up">
+    </form>
+	</body>
+</html>
