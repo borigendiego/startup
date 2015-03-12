@@ -1,0 +1,40 @@
+html, body {
+  margin-left: 2em;
+  background: linear-gradient(to bottom, rgba(238, 79, 0, 0.8) 0%,rgba(238, 79, 0, 0.8) 100%);
+  font-family: Verdana, sans-serif;
+}
+
+h1 {
+    color: #FFF;
+    text-align: center;
+    font-variant: small-caps;
+}
+
+
+.btn {
+  width: 6em;
+  height: 2em;
+  margin-top: 1em;
+  margin-bottom: 1em;
+  background-color: #585858;
+  color: #FFF;
+}
+
+.content-exc {
+  color: #585858;
+}
+
+.txtArea {
+    color: #FFF;
+    font-weight: bold;
+}
+
+#svg {
+
+}
+.elipse {
+fill: #2EFE2E;
+stroke: #58FAF4;
+stroke-width: 5;
+
+}
