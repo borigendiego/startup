@@ -24,7 +24,7 @@ Movie.prototype.set = function(attr , value){
 
 Movie.prototype.get = function(){
 	console.log(this.attributes.title);
-	return this.attributes.title;
+	return this.attributes[attr];
 }
 
 Movie.prototype.play = function (){
@@ -112,10 +112,10 @@ flash.set('title' , 'flash');
 			batman = new movieModule(),
 			spiderman = new downloadableMovie(),
 			actors = [], //Creo el array de actores
-			jones = new Actor("Jones"),
-			bale = new Actor("Christian Bale"), 
-			Tobey = new Actor("Tobey Maguire"), 
-			diego3 = new Actor("Diego"); 
+			jones = new Actor('Jones'),
+			bale = new Actor('Christian Bale'), 
+			Tobey = new Actor('Tobey Maguire'), 
+			diego3 = new Actor('Diego'); 
 	
 	
 	flash.set('title' , 'flash');
