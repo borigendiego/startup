@@ -59,14 +59,14 @@ section {
 	padding: 5px;
 	width: 680px;
   height: 245px;
-	float: center;
+	float: left;
   border-style: solid;
 
 }
 
 
 article {
-	background-color: white;
+	background-color: #BBB;
 	margin-top: 10px;
 	padding: 5px;
 }
@@ -102,7 +102,6 @@ footer {
 	font-size: 46px;
 	background-color: #FF00FF;
 	color: white; 
-	color: 10px 20px; 
 }
 
 .navigation {
